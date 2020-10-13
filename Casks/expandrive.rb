@@ -1,10 +1,11 @@
 cask "expandrive" do
-  version "7.5.0"
-  sha256 "8c0ddc599010d8e01433a6593f3cc669ff1b8854ebb1f039adcc4cded2ee7e03"
+  version "7.6.3"
+  sha256 "eed57bcf575cd88fc479d8fed559e90a54d04f6c7df296149d9f34cd4687029a"
 
   url "https://updates.expandrive.com/apps/expandrive#{version.major}/v/#{version.dots_to_hyphens}/update_download"
   appcast "https://updates.expandrive.com/appcast/expandrive#{version.major}.json?version=#{version.major}.0.0"
   name "ExpanDrive"
+  desc "Network drive and browser for cloud storage"
   homepage "https://www.expandrive.com/apps/expandrive/"
 
   app "ExpanDrive.app"

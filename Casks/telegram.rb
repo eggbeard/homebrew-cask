@@ -1,10 +1,11 @@
 cask "telegram" do
-  version "6.3.203623"
-  sha256 "6b339c3ea8af7ace4b4fd05cd36654b71e298e779b551185924beb3e5a6eb9d3"
+  version "7.1,206149"
+  sha256 "9711a55363cc8fe8f8e61c96078e6cfe8f70acee9a94eb8ccef4db7b6b178a4f"
 
-  url "https://osx.telegram.org/updates/Telegram-#{version}.app.zip"
+  url "https://osx.telegram.org/updates/Telegram-#{version.before_comma}.#{version.after_comma}.app.zip"
   appcast "https://osx.telegram.org/updates/versions.xml"
   name "Telegram for macOS"
+  desc "Messaging app with a focus on speed and security"
   homepage "https://macos.telegram.org/"
 
   auto_updates true

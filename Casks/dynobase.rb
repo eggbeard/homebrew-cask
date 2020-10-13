@@ -1,11 +1,12 @@
 cask "dynobase" do
-  version "0.8.6"
-  sha256 "2a8a0b5f85946a5daf1903ed428824fb91900599924b90aab6e235c6d141472d"
+  version "1.0.2"
+  sha256 "df258fccb700595f2bbb64b2f80884d917ea1edd1f2cd874cebc38bbc0c2f3c5"
 
   # github.com/Dynobase/dynobase was verified as official when first introduced to the cask
   url "https://github.com/Dynobase/dynobase/releases/download/#{version}/Dynobase-#{version}.dmg"
   appcast "https://github.com/Dynobase/dynobase/releases.atom"
   name "Dynobase"
+  desc "GUI Client for DynamoDB"
   homepage "https://dynobase.dev/"
 
   app "Dynobase.app"

@@ -1,9 +1,10 @@
 cask "deepl" do
-  version "1.8.1"
-  sha256 "c40d917567c775a4e1dda096a624395d72ee9772293450a7db0a84bf2010f417"
+  version "1.11.0"
+  sha256 "217e6a7e485adaecd7a04c4b4c66c49f9949d83dc3862cede2f0240aeb8fb3b2"
 
   url "https://appdownload.deepl.com/macos/DeepL.dmg"
   name "DeepL"
+  desc "Trains AIs to understand and translate texts"
   homepage "https://www.deepl.com/"
 
   auto_updates true

@@ -1,10 +1,11 @@
 cask "metasploit" do
-  version "5.0.100,20200717103419"
-  sha256 "1aeeb74a3b31b4bf330969b96f8c8b3d5f89391bfc569a04692416ab9865df31"
+  version "6.0.11,20201012102846"
+  sha256 "90b21ed0e71ebdb4eccf9c1c524a5cfb022dc8a51ea83881d7da72223cfbab6a"
 
   url "https://osx.metasploit.com/metasploit-framework-#{version.before_comma}+#{version.after_comma}-1rapid7-1.pkg"
   appcast "https://osx.metasploit.com/LATEST"
   name "Metasploit Framework"
+  desc "Penetration testing framework"
   homepage "https://www.metasploit.com/"
 
   depends_on formula: "nmap"

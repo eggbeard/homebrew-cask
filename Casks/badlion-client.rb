@@ -1,6 +1,6 @@
 cask "badlion-client" do
-  version "2.15.0"
-  sha256 "06d22a4dac19cdbfd86ed151585d66a07499d2903acd6c40f6cdb2dbaa3904df"
+  version "2.17.0"
+  sha256 "1f425be1fadd50959e19d14499c69bc6ca7c02c61c9fbca8a199cafcd363bb05"
 
   url "https://client-updates.badlion.net/Badlion%20Client-#{version}.dmg"
   appcast "https://client-updates.badlion.net/latest-mac.yml"

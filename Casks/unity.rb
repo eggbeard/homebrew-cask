@@ -1,11 +1,13 @@
 cask "unity" do
-  version "2019.4.2f1,20b4642a3455"
-  sha256 "1be916e3c36a8f94c9294daed6805b24890c5f5b9627e0ee84abce6fbb0935c6"
+  version "2020.1.8f1,22e8c0b0c3ec"
+  sha256 "a2b6c818807bb17cfe0ec032bf074601d573d9e8e1b84c91acd52d6369698c8b"
 
-  url "https://netstorage.unity3d.com/unity/#{version.after_comma}/MacEditorInstaller/Unity-#{version.before_comma}.pkg"
-  appcast "https://unity3d.com/get-unity/download/archive"
+  # download.unity3d.com/download_unity/ was verified as official when first introduced to the cask
+  url "https://download.unity3d.com/download_unity/#{version.after_comma}/MacEditorInstaller/Unity-#{version.before_comma}.pkg"
+  appcast "https://public-cdn.cloud.unity3d.com/hub/prod/releases-darwin.json"
   name "Unity Editor"
-  homepage "https://unity3d.com/unity/"
+  desc "Platform for 3D content"
+  homepage "https://unity.com/products"
 
   pkg "Unity-#{version.before_comma}.pkg"
 

@@ -1,10 +1,11 @@
 cask "alt-tab" do
-  version "4.9.1"
-  sha256 "a15136442023c1981d347a6568bb30502a03cea652e3ffaa17953869de4da556"
+  version "6.7.3"
+  sha256 "27cd00f123fccca4df506a4ae0ab6646df7e0b90968d1da21de8d8763e6f37aa"
 
   url "https://github.com/lwouis/alt-tab-macos/releases/download/v#{version}/AltTab-#{version}.zip"
   appcast "https://github.com/lwouis/alt-tab-macos/releases.atom"
   name "alt-tab"
+  desc "Utility to set up alt-tap to switch between windows"
   homepage "https://github.com/lwouis/alt-tab-macos"
 
   auto_updates true
@@ -15,6 +16,7 @@ cask "alt-tab" do
   uninstall quit: "com.lwouis.alt-tab-macos"
 
   zap trash: [
+    "~/Library/Application Support/com.lwouis.alt-tab-macos",
     "~/Library/Caches/com.lwouis.alt-tab-macos",
     "~/Library/Cookies/com.lwouis.alt-tab-macos.binarycookies",
     "~/Library/Preferences/com.lwouis.alt-tab-macos.plist",

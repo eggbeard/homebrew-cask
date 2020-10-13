@@ -1,10 +1,11 @@
 cask "zotero" do
-  version "5.0.89"
-  sha256 "bc56086c4305e138d2a7032b8ecacbc2c0bd8f3e4c3eb2c271eeb641ed381621"
+  version "5.0.91"
+  sha256 "0c76e4ffb2ad79a96922d5ea3cb5533d8b76a0a902b99baf02817a8a79a1eff8"
 
   url "https://download.zotero.org/client/release/#{version}/Zotero-#{version}.dmg"
-  appcast "https://github.com/zotero/zotero/releases.atom"
+  appcast "https://www.zotero.org/download/"
   name "Zotero"
+  desc "Collect, organize, cite, and share research sources"
   homepage "https://www.zotero.org/"
 
   auto_updates true

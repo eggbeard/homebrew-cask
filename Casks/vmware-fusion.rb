@@ -1,14 +1,15 @@
 cask "vmware-fusion" do
-  version "11.5.5-16269456"
-  sha256 "20cdb359334cd7fd5953ab73264610e03c75a8bcf7f1601ba6535ca8bd53fd83"
+  version "12.0.0-16880131"
+  sha256 "b7ce08983c1aab3218327a1a14343a77f23b4acfb3b9dd178594048b12eb63d8"
 
   url "https://download3.vmware.com/software/fusion/file/VMware-Fusion-#{version}.dmg"
   appcast "https://softwareupdate.vmware.com/cds/vmw-desktop/fusion.xml"
   name "VMware Fusion"
+  desc "App to run other operating systems without rebooting"
   homepage "https://www.vmware.com/products/fusion.html"
 
   auto_updates true
-  depends_on macos: ">= :mojave"
+  depends_on macos: ">= :catalina"
 
   app "VMware Fusion.app"
   binary "#{appdir}/VMware Fusion.app/Contents/Library/vmnet-bridge"

@@ -1,14 +1,15 @@
 cask "soundsource" do
-  version "4.2.5"
-  sha256 "cc0999faa8abf62a02e077209e9d4f0dadffb7b10dd809a84b2d4ba59dd3955d"
+  version "5.0.5"
+  sha256 "f4d0dce55aa7ba6303736342f0ea013496e0dfe36640a020956163aced552fee"
 
   url "https://rogueamoeba.com/soundsource/download/SoundSource.zip"
-  appcast "https://rogueamoeba.net/ping/versionCheck.cgi?format=sparkle&bundleid=com.rogueamoeba.soundsource&system=10146&version=4000000"
+  appcast "https://rogueamoeba.net/ping/versionCheck.cgi?format=sparkle&bundleid=com.rogueamoeba.soundsource&system=10146&version=5000000"
   name "SoundSource"
+  desc "Sound and audio controller"
   homepage "https://rogueamoeba.com/soundsource/"
 
   auto_updates true
-  depends_on macos: ">= :sierra"
+  depends_on macos: ">= :high_sierra"
 
   app "SoundSource.app"
 end

@@ -1,11 +1,12 @@
 cask "zulip" do
-  version "5.4.0"
-  sha256 "3d40777d8f5d8e4d1e8134a1e5ffa03bc5f493fa7fa12abc3bf41c89de7f9454"
+  version "5.4.3"
+  sha256 "68c253956f2be0e20ed73c538ffc9f71bab8c6e63c2eac51f53cecbcb0ba367e"
 
   # github.com/zulip/zulip-desktop/ was verified as official when first introduced to the cask
   url "https://github.com/zulip/zulip-desktop/releases/download/v#{version}/Zulip-#{version}.dmg"
   appcast "https://github.com/zulip/zulip-desktop/releases.atom"
   name "Zulip"
+  desc "Desktop client for the Zulip open source team chat platform"
   homepage "https://zulipchat.com/apps/"
 
   auto_updates true

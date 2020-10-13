@@ -1,10 +1,11 @@
 cask "upic" do
-  version "0.19.5"
-  sha256 "8c6a69349641b6b25379e93657de89a0478ddd6d9716001a309b1346e6446505"
+  version "0.20.1"
+  sha256 "6015aaac535600015ccc940dbb77a514476af15b1ae3e9a8249d0ce6b06039c0"
 
   url "https://github.com/gee1k/uPic/releases/download/v#{version}/uPic.zip"
   appcast "https://github.com/gee1k/uPic/releases.atom"
   name "uPic"
+  desc "Native and simple picture and file upload tool"
   homepage "https://github.com/gee1k/uPic"
 
   depends_on macos: ">= :sierra"

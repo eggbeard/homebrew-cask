@@ -1,6 +1,6 @@
 cask "weakauras-companion" do
-  version "3.0.2"
-  sha256 "d2ffad6365e08dd2edee22bf8ab5bae2597b3de7f8bf3296d99618204bb64191"
+  version "3.0.5"
+  sha256 "27ef175820e2b90d30a07444a69d65cd068b99a0f2a84fbefb27bbdfe8f637a9"
 
   # github.com/WeakAuras/WeakAuras-Companion was verified as official when first introduced to the cask
   url "https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v#{version}/WeakAuras-Companion-#{version}.dmg"

@@ -1,10 +1,11 @@
 cask "ableton-live" do
-  version "10.1.15"
-  sha256 "ea3e9332ecce5760d739025254f83a04f97d04d58b0d47c6cdc96c28940604e3"
+  version "10.1.25"
+  sha256 "fdfd2f323460a29f1e5f10bdd04e7e1af319257496b6354d3bed6c7c10ce6217"
 
   url "https://cdn-downloads.ableton.com/channels/#{version}/ableton_live_trial_#{version}_64.dmg"
   appcast "https://www.ableton.com/en/release-notes/live-#{version.major}/"
   name "Ableton Live"
+  desc "Sound and music editor"
   homepage "https://www.ableton.com/en/live/"
 
   auto_updates true

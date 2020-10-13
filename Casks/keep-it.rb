@@ -1,10 +1,11 @@
 cask "keep-it" do
-  version "1.8.11"
-  sha256 "397fd43bc4edece305f9530c5656efd580d650eb126b34d8c0b9672288729118"
+  version "1.8.18"
+  sha256 "672e24466a8120d259c45d8ff49559b5bb9a06bc835049ff9ab989c89efec128"
 
   url "https://reinventedsoftware.com/keepit/downloads/KeepIt_#{version}.dmg"
   appcast "https://reinventedsoftware.com/keepit/downloads/keepit.xml"
   name "Keep It"
+  desc "Notebook, scrapbook and organizer tool"
   homepage "https://reinventedsoftware.com/keepit/"
 
   auto_updates true

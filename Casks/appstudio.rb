@@ -2,8 +2,8 @@ cask "appstudio" do
   version :latest
   sha256 :no_check
 
-  # dl.dropboxusercontent.com/s/ojbaoqbg6ffneyl/ was verified as official when first introduced to the cask
-  url "https://dl.dropboxusercontent.com/s/ojbaoqbg6ffneyl/AppStudio.dmg"
+  # appstudio.s3.amazonaws.com/ was verified as official when first introduced to the cask
+  url "https://appstudio.s3.amazonaws.com/AppStudio.dmg"
   name "NSB/AppStudio"
   homepage "https://www.nsbasic.com/"
 

@@ -1,10 +1,11 @@
 cask "wireshark" do
-  version "3.2.5"
-  sha256 "c95277ecc61c22b900591d07dae94ef659fe1d80d584479ddc46855b4e3a3745"
+  version "3.2.7"
+  sha256 "1347138534c6d9adb2ee1af7898cac2248b63bfb1ac6afee54e17725ab333106"
 
-  url "https://www.wireshark.org/download/osx/Wireshark%20#{version}%20Intel%2064.dmg"
+  url "https://2.na.dl.wireshark.org/osx/Wireshark%20#{version}%20Intel%2064.dmg"
   appcast "https://www.wireshark.org/update/0/Wireshark/0.0.0/macOS/x86-64/en-US/stable.xml"
   name "Wireshark"
+  desc "Network protocol analyzer"
   homepage "https://www.wireshark.org/"
 
   auto_updates true

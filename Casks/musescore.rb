@@ -1,11 +1,12 @@
 cask "musescore" do
-  version "3.4.2"
-  sha256 "59f7ee60d77b63a67a89f998f19ae3434959b6ed2eeb20c9e90ff56f5659f824"
+  version "3.5.1"
+  sha256 "4c9f4daac8486b61be4cf31d75d078141fc5c97a71e6b7ddbc7dbaed8167cd5f"
 
   # github.com/musescore/MuseScore/ was verified as official when first introduced to the cask
-  url "https://github.com/musescore/MuseScore/releases/download/v#{version}/MuseScore-#{version}.dmg"
+  url "https://github.com/musescore/MuseScore/releases/download/v#{version.chomp(".0")}/MuseScore-#{version}.dmg"
   appcast "https://github.com/musescore/MuseScore/releases.atom"
   name "MuseScore"
+  desc "Open-source music notation software"
   homepage "https://musescore.org/"
 
   depends_on macos: ">= :yosemite"

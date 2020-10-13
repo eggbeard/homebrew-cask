@@ -1,11 +1,12 @@
 cask "surge-synthesizer" do
-  version "1.6.6"
-  sha256 "cd709c3a447bd98f35f1ca5c56be3f50267ccde3c8860fd0e75cf7f3d096aa9c"
+  version "1.7.1"
+  sha256 "4a1020bf4f5606c541c28e6def2d282a4fb13c29cfa39f1094b02cc94e335d9c"
 
   # github.com/surge-synthesizer/releases/ was verified as official when first introduced to the cask
   url "https://github.com/surge-synthesizer/releases/releases/download/#{version}/Surge-#{version}-Setup.dmg"
   appcast "https://github.com/surge-synthesizer/releases/releases.atom"
-  name "Surge - A Digital Synthesizer"
+  name "Surge"
+  desc "Hybrid synthesizer"
   homepage "https://surge-synthesizer.github.io/"
 
   pkg "Surge-#{version}-Setup.pkg"

@@ -1,6 +1,6 @@
 cask "protopie" do
-  version "5.0.4"
-  sha256 "c643ae70d2a148ac209e9b5515ca55648327ef7ac11b9ccaa05a843aeeed74f4"
+  version "5.1.1"
+  sha256 "237e5865e841bc66a807d171775c0a44cbe75fbe2460a034dbec037097ca855f"
 
   url "https://release.protopie.io/ProtoPie-#{version}.dmg"
   appcast "https://www.macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://download.protopie.io/darwin/latest"

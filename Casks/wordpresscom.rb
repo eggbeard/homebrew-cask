@@ -1,10 +1,11 @@
 cask "wordpresscom" do
-  version "6.0.0"
-  sha256 "a34a40211eabae9b23f12a0e17e4bfb623ff5b11560bb1a15d59e610b501e4f7"
+  version "6.1.0"
+  sha256 "9ae2c56be5142a1fc9c1644a50034f49628061fe2411ba22996bdf480a683d73"
 
   url "https://public-api.wordpress.com/rest/v1.1/desktop/osx/download?type=app&ref=update&version=#{version}"
   appcast "https://public-api.wordpress.com/rest/v1.1/desktop/osx/version?compare=0.1.0&channel=stable"
   name "WordPress.com"
+  desc "Wordpress client"
   homepage "https://apps.wordpress.com/desktop/"
 
   app "WordPress.com.app"

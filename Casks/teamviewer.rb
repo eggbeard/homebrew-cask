@@ -1,10 +1,11 @@
 cask "teamviewer" do
-  version "15.7.6"
-  sha256 "17adfcca18f0de453a13e3b6f3ce71d8c9e61cea4256c8350baddba41662924f"
+  version "15.10.5"
+  sha256 "e876fd019bd715a60e9fa16c6f8eaf05b62ac53ce7e0f1ba49e2c61f7f2414c7"
 
   url "https://download.teamviewer.com/download/TeamViewer.dmg"
   appcast "https://download.teamviewer.com/download/update/macupdates.xml?id=0&lang=en&version=14.7.1965&os=macos&osversion=10.15.1&type=1&channel=1"
   name "TeamViewer"
+  desc "Remote access and connectivity software focused on security"
   homepage "https://www.teamviewer.com/"
 
   auto_updates true

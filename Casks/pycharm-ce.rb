@@ -1,12 +1,15 @@
 cask "pycharm-ce" do
-  version "2020.1.4,201.8743.11"
-  sha256 "c79d9cc173c0cc8744aceeb078604c6ee9cff691e4d1c9962153cd986e7360c0"
+  version "2020.2.3,202.7660.27"
+  sha256 "021fcdd4564cbb65c8e53b26feb2652bb09b14d7ca36f97539be124dd1dffdc4"
 
   url "https://download.jetbrains.com/python/pycharm-community-#{version.before_comma}.dmg"
   appcast "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release"
   name "Jetbrains PyCharm Community Edition"
   name "PyCharm CE"
+  desc "Free and open-source IDE for Python programming - Community Edition"
   homepage "https://www.jetbrains.com/pycharm/"
+
+  auto_updates true
 
   app "PyCharm CE.app"
 

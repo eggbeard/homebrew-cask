@@ -1,10 +1,11 @@
 cask "brook" do
-  version "20200701"
-  sha256 "c0ac6c71eeb596108fe9abc384365bdb685c6e8dc47302aa5fa0558bf8a7a46d"
+  version "20200909"
+  sha256 "7762ad30c86503974542e739e94e252f0721869a5ca00927df00b3338870577b"
 
   url "https://github.com/txthinking/brook/releases/download/v#{version}/Brook.dmg"
   appcast "https://github.com/txthinking/brook/releases.atom"
   name "Brook"
+  desc "Cross-platform proxy/vpn software"
   homepage "https://github.com/txthinking/brook"
 
   app "Brook.app"

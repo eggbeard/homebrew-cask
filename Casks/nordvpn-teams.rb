@@ -1,11 +1,12 @@
 cask "nordvpn-teams" do
-  version "1.4.1"
-  sha256 "ed25d9da5e34aed726599413b1c87360994040ba74f20ea7d29383ed6b801d45"
+  version "1.6.1"
+  sha256 "a8b0c91bf3581f9dfea3cba15d49fcaf98df234dc83d1023e57f381df38851a0"
 
   # downloads.nordteams.com/ was verified as official when first introduced to the cask
   url "https://downloads.nordteams.com/mac/latest/NordVPNTeams.pkg"
   appcast "https://downloads.nordteams.com/mac/update.xml"
   name "NordVPN Teams"
+  desc "Security software for business"
   homepage "https://nordvpnteams.com/"
 
   auto_updates true

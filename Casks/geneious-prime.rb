@@ -1,6 +1,6 @@
 cask "geneious-prime" do
-  version "2020.2.2"
-  sha256 "056c6f05c49e494a2e7b7011e43aa993e545e26c3d20d948b26beffbd550da02"
+  version "2020.2.4"
+  sha256 "9a5784d3ca90ed16d153f5cb36276ee59886c1d55802d34d7f0d7bcbfb974bc7"
 
   url "https://assets.geneious.com/installers/geneious/release/Geneious_Prime_mac64_#{version.dots_to_underscores}_with_jre.dmg"
   appcast "https://www.geneious.com/download/"

@@ -1,11 +1,12 @@
 cask "logdna-agent" do
-  version "1.6.2"
-  sha256 "350956cbeddf0f0b1cf991a58d659e2a4c2344b621370e10c8adb950f9c6bc47"
+  version "2.0.0"
+  sha256 "ad87d1598b91130a9940c71412f15b4da356408d1a37bcfa7244cca18a452b37"
 
   # github.com/logdna/logdna-agent/ was verified as official when first introduced to the cask
   url "https://github.com/logdna/logdna-agent/releases/download/#{version}/logdna-agent-#{version}.pkg"
   appcast "https://github.com/logdna/logdna-agent/releases.atom"
   name "LogDNA Agent"
+  desc "Agent streams from log files to your LogDNA account"
   homepage "https://logdna.com/"
 
   pkg "logdna-agent-#{version}.pkg"

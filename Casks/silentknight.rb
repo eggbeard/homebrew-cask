@@ -1,12 +1,15 @@
 cask "silentknight" do
-  version "1.8,2020.06"
-  sha256 "6076892e23d989f81f3050ef2a70ebe12979dd8480fb40a3c76890927d277550"
+  version "1.10,2020.08"
+  sha256 "43da2c9a4fce2e682dec2a6811651d784ab2e6ad87e3976078f7461b42a9aa75"
 
   # eclecticlightdotcom.files.wordpress.com/ was verified as official when first introduced to the cask
   url "https://eclecticlightdotcom.files.wordpress.com/#{version.after_comma.major}/#{version.after_comma.minor}/silentknight#{version.before_comma.no_dots}.zip"
-  appcast "https://eclecticlight.co/lockrattler-systhist/"
+  appcast "https://www.macupdater.net/cgi-bin/extract_text/extract_text_split_easy.cgi?url=https://raw.githubusercontent.com/hoakleyelc/updates/master/eclecticapps.plist&splitter_1=SilentKnight&index_1=1&splitter_2=Version&index_2=1&splitter_3=dict&index_3=0"
   name "SilentKnight"
+  desc "Automatically checks computer's security"
   homepage "https://eclecticlight.co/lockrattler-systhist/"
+
+  depends_on macos: ">= :el_capitan"
 
   app "silentknight#{version.before_comma.no_dots}/SilentKnight.app"
 

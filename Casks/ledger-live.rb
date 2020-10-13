@@ -1,6 +1,6 @@
 cask "ledger-live" do
-  version "2.9.0"
-  sha256 "d37e55e460d1ed1b8f87498f4577473dcd276e7433af75d08bf17f373a050482"
+  version "2.13.0"
+  sha256 "6278c2c8b4a69789f1b4afb554848de3bba98f99b8e1f0b2cde35e21143cb574"
 
   # github.com/LedgerHQ/ledger-live-desktop/ was verified as official when first introduced to the cask
   url "https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v#{version}/ledger-live-desktop-#{version}-mac.dmg"
@@ -11,4 +11,15 @@ cask "ledger-live" do
   auto_updates true
 
   app "Ledger Live.app"
+
+  uninstall quit: [
+    "com.ledger.live",
+    "com.ledger.live.helper",
+  ]
+
+  zap trash: [
+    "~/Library/Application Support/Ledger Live",
+    "~/Library/Preferences/com.ledger.live.plist",
+    "~/Library/Saved Application State/com.ledger.live.savedState",
+  ]
 end

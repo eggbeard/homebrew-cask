@@ -1,11 +1,13 @@
 cask "gifox" do
-  version "2.2.1,020201.00"
-  sha256 "7d79c78c5af3ddb04cb3dc6970b7358ae5169f323cea16ef7c6acc4d14239dc8"
+  version "2.2.4,020204.04"
+  sha256 "c68fb501e5ea371a5b0ba87599c0f04f1cca9735f8d498988c4cf685b13268c9"
 
   # d3si16icyi9iar.cloudfront.net/gifox/ was verified as official when first introduced to the cask
   url "https://d3si16icyi9iar.cloudfront.net/gifox/#{version.after_comma}.dmg"
-  appcast "https://www.macupdater.net/cgi-bin/extract_text/download_with_useragent.cgi?url=https://api.gifox.io/appcast?prereleases=false"
+  appcast "https://macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://gifox.io/download/latest",
+          must_contain: version.after_comma
   name "gifox"
+  desc "App to record the screen"
   homepage "https://gifox.io/"
 
   app "Gifox.app"

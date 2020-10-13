@@ -1,11 +1,12 @@
 cask "chromium" do
-  version "791416"
-  sha256 "f1edc2b618a3ad9016c6f1ebc24861be451edb4d5d24755bb88435ac6f0d7489"
+  version "816015"
+  sha256 "f69d0063c78a97e5464a871589fb9575055636c99a317417444f4e0bb6319867"
 
   # commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/ was verified as official when first introduced to the cask
   url "https://commondatastorage.googleapis.com/chromium-browser-snapshots/Mac/#{version}/chrome-mac.zip"
   appcast "https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Mac%2FLAST_CHANGE?alt=media"
   name "Chromium"
+  desc "Free and open-source web browser"
   homepage "https://www.chromium.org/Home"
 
   conflicts_with cask: [

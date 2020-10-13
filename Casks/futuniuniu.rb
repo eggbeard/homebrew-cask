@@ -1,12 +1,13 @@
 cask "futuniuniu" do
-  version "10.7.672_202007071046"
-  sha256 "26b894109cdcfb462a67859c21a9fed2a8cc525135d7b5d033743f0242d8dd45"
+  version "10.10.704_202009101801"
+  sha256 "ef4cfaf4c43d8319aaa6c74199d718dc059672b83b75363880b10b833ca47513"
 
   # software-file-1251001049.file.myqcloud.com/ was verified as official when first introduced to the cask
   url "https://software-file-1251001049.file.myqcloud.com/FTNNForMac_#{version}_Website.dmg"
   appcast "https://www.futu5.com/tools"
   name "FutuNiuniu"
   name "富途牛牛"
+  desc "Trading application"
   homepage "https://hk.futu5.com/"
 
   # Renamed for consistency: app name is different in the Finder and in a shell.

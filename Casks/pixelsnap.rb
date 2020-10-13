@@ -1,10 +1,11 @@
 cask "pixelsnap" do
-  version "2.3.2"
-  sha256 "b0f8d4fa3f3fddc83c9ce161ec242bc160612867cdfe9ddd739a1cda292198f4"
+  version "2.4"
+  sha256 "801db8d629d04f47278eb29cdb95219273995d711cdf60443d1031f73b39a13d"
 
   url "https://updates.getpixelsnap.com/v#{version.major}/PixelSnap-#{version.major}-#{version}.dmg"
   appcast "https://updates.getpixelsnap.com/v#{version.major}/appcast.xml"
   name "PixelSnap"
+  desc "Screen measuring tool"
   homepage "https://getpixelsnap.com/"
 
   auto_updates true

@@ -1,10 +1,11 @@
 cask "sizzy" do
-  version "0.28.1"
-  sha256 "6a6a1f206cca74c4c26fcc9f3eaeec1df35b3bb9d5d3bacb5bcf6bbf9f963214"
+  version "0.37.0"
+  sha256 "3130c825be024dec0b66fefa8d28705d5799ca544bce7151af3a1ef23d0bff77"
 
   url "https://sizzy.co/get-app"
   appcast "https://www.macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://sizzy.co/get-app&user_agent=Intel%20Mac%20OS%20X"
   name "Sizzy"
+  desc "Tool to simulate responsive designs on multiple devices"
   homepage "https://sizzy.co/"
 
   auto_updates true

@@ -1,10 +1,11 @@
 cask "integrity" do
-  version "9.8.2"
-  sha256 "e35a3a3dab7c60b017030a52c37a560854b50e3e103a80d4690a479390b6c97a"
+  version "9.12.3"
+  sha256 "7eeb02fb1cab20861d88501db19187bbc80cc98c84216e12ec73d8372b24c272"
 
   url "https://peacockmedia.software/mac/integrity/integrity.dmg"
   appcast "https://peacockmedia.software/mac/integrity/version_history.html"
   name "Integrity"
+  desc "Tool to scans a website checking for broken links"
   homepage "https://peacockmedia.software/mac/integrity/"
 
   app "Integrity.app"

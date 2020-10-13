@@ -1,10 +1,11 @@
 cask "atext" do
-  version "2.36.3"
-  sha256 "2062b60f1ba43196a72c3bae5ca5e5aac3ebab8e33cc2a1aefcb5e5736e9f5f7"
+  version "2.36.5"
+  sha256 "0ca646a2805314587be77a4fc77856b9f25c52b96d2d8d0fbcbff0ad6cd9f75b"
 
   url "https://www.trankynam.com/atext/downloads/aText.dmg"
   appcast "https://www.trankynam.com/atext/aText-Appcast.xml"
   name "aText"
+  desc "Tool to replace abbreviations while typing"
   homepage "https://www.trankynam.com/atext/"
 
   auto_updates true

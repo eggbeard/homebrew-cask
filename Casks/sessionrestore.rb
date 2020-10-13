@@ -1,10 +1,11 @@
 cask "sessionrestore" do
-  version "2.1.6"
-  sha256 "e2537a5a4430b9065f49441d84e7f7c34857d6ecd405d208f3dcaed859d17d04"
+  version "2.2.1"
+  sha256 "01eae56608d5242824b53d555ba7f48c9a54dc67f3507e34e19d67cd58699092"
 
   url "https://sweetpproductions.com/products/sessionrestore/SessionRestore.dmg"
   appcast "https://sweetpproductions.com/products/sessionrestore/appcast.xml"
   name "SessionRestore"
+  desc "Helps to keep numerous Safari tabs open forreading them later"
   homepage "https://sessionrestore.sweetpproductions.com/"
 
   auto_updates true

@@ -1,6 +1,6 @@
 cask "hydrogen" do
-  version "0.9.7"
-  sha256 "f31d99cbb4e996a90ffc91de5002aaf8e62002ca900c169d4c387d69cadd4ce4"
+  version "1.0.1"
+  sha256 "20b33e3b8c308a2fb8a82dd0712c301c1187ec57b2da934ddfc1167a11252a47"
 
   # downloads.sourceforge.net/hydrogen/ was verified as official when first introduced to the cask
   url "https://downloads.sourceforge.net/hydrogen/Hydrogen-#{version}.dmg"

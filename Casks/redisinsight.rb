@@ -1,9 +1,10 @@
 cask "redisinsight" do
-  version "1.6.0"
-  sha256 "3ff46465ebe7612af2dc5716bae3ab830e0c23839cb2ef37b84fd9f3b423daf3"
+  version "1.7.0"
+  sha256 "e5ffafb82727498a9b04d265cddc4d7c07fbe9e6501e58b7ce244b97f3805f97"
 
   url "https://downloads.redisinsight.redislabs.com/#{version}/redisinsight-mac.dmg"
-  appcast "https://docs.redislabs.com/latest/ri/release-notes/"
+  appcast "https://docs.redislabs.com/latest/ri/release-notes/",
+          must_contain: version.major_minor
   name "RedisInsight"
   homepage "https://www.redislabs.com/redisinsight/"
 

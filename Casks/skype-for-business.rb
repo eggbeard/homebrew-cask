@@ -5,12 +5,21 @@ cask "skype-for-business" do
   url "https://download.microsoft.com/download/D/0/5/D055DA17-C7B8-4257-89A1-78E7BBE3833F/SkypeForBusinessInstaller-#{version}.pkg"
   appcast "https://www.microsoft.com/download/details.aspx?id=54108"
   name "Skype for Business"
+  desc "Microsofts instant messaging enterprise software"
   homepage "https://www.microsoft.com/download/details.aspx?id=54108"
 
   auto_updates true
+  depends_on cask: "microsoft-auto-update"
   depends_on macos: ">= :el_capitan"
 
-  pkg "SkypeForBusinessInstaller-#{version}.pkg"
+  pkg "SkypeForBusinessInstaller-#{version}.pkg",
+      choices: [
+        {
+          "choiceIdentifier" => "com.microsoft.autoupdate.fba", # Office16_all_autoupdate_bootstrapper_updater.pkg
+          "choiceAttribute"  => "selected",
+          "attributeSetting" => 0,
+        },
+      ]
 
   uninstall delete:     "/Applications/Skype for Business.app",
             pkgutil:    [
@@ -19,20 +28,12 @@ cask "skype-for-business" do
             ],
             login_item: "Skype for Business"
 
-  zap trash:     [
+  zap trash: [
     "/Library/Internet Plug-Ins/MeetingJoinPlugin.plugin",
-    "~/Library/Preferences/com.microsoft.SkypeForBusinessTAP.plist",
-    "~/Library/Preferences/com.microsoft.SkypeForBusinessTAP.debuglogging.plist",
     "~/Library/Application Support/com.microsoft.SkypeForBusinessTAP",
     "~/Library/Application Support/Skype for Business",
+    "~/Library/Preferences/com.microsoft.SkypeForBusinessTAP.plist",
+    "~/Library/Preferences/com.microsoft.SkypeForBusinessTAP.debuglogging.plist",
   ],
-      launchctl: [
-        "com.microsoft.autoupdate.helper",
-        "com.microsoft.update.agent",
-      ],
-      rmdir:     "/Library/Application Support/Microsoft",
-      pkgutil:   [
-        "com.microsoft.package.Microsoft_AU_Bootstrapper.app",
-        "com.microsoft.package.Microsoft_AutoUpdate.app",
-      ]
+      rmdir: "/Library/Application Support/Microsoft"
 end

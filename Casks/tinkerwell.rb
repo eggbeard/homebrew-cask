@@ -1,6 +1,6 @@
 cask "tinkerwell" do
-  version "2.8.4"
-  sha256 "de4db639cce79de5fcf869f39481cc44e15fdc5277c83f1f8f457a1fae6f487a"
+  version "2.10.1"
+  sha256 "9cec9e564e550615d73884e85038892e52e934249b2202e029e169eb75f5bc3c"
 
   # tinkerwell.fra1.digitaloceanspaces.com/ was verified as official when first introduced to the cask
   url "https://tinkerwell.fra1.digitaloceanspaces.com/tinkerwell/Tinkerwell-#{version}.dmg"

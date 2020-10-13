@@ -1,10 +1,11 @@
 cask "blocs" do
-  version "3.5.1"
-  sha256 "43761a21f323b70f6396d2809d49e41db11b9066fc60e0cabb46db437acb8132"
+  version "3.5.4"
+  sha256 "506f6dc9fd46868a5c8b51d82841e770f3727ee6740fcce8875bf81a14f32dfc"
 
   url "https://blocsapp.com/download/Blocs#{version.major}.zip"
   appcast "https://blocsapp.com/release-notes.html"
   name "Blocs"
+  desc "Visual web design software"
   homepage "https://blocsapp.com/"
 
   auto_updates true

@@ -1,10 +1,11 @@
 cask "mia-for-gmail" do
-  version "2.4.1"
-  sha256 "0bc3cc3c641d6f5b2dcdc5962f3b3c504595c767d9388e34cfe9821a43be6b5e"
+  version "2.4.5"
+  sha256 "4130b480c013862b7d61d678409d915b1b09564a1c37380cdd29db717e37eed7"
 
   url "https://www.miaforgmail.com/application/notifier-pro-for-gmail/MiaForGmail.dmg"
   appcast "https://www.sovapps.com/application/notifier-pro-for-gmail/notifier.xml"
   name "Mia for Gmail"
+  desc "Desktop email client for Gmail"
   homepage "https://www.miaforgmail.com/"
 
   auto_updates true

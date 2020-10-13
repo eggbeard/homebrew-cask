@@ -1,10 +1,11 @@
 cask "rekordbox" do
-  version "6.0.3,20200713191837"
-  sha256 "c7a071e51ba41cb2c512260aedab75d55819c6469723430c1ef4795c7d92f275"
+  version "6.1.1,20200918120152"
+  sha256 "3ad7e16b5c72e7f5a0b90fd7cdce51eb744dc0fc0679c949ed07b15f33595fa2"
 
   url "https://cdn.rekordbox.com/files/#{version.after_comma}/Install_rekordbox_#{version.before_comma.dots_to_underscores}.pkg_.zip"
-  appcast "https://rekordbox.com/en/support/releasenote/"
+  appcast "https://rekordbox.com/en/download/"
   name "rekordbox"
+  desc "Free Dj app to prepare and manage your music files"
   homepage "https://rekordbox.com/en/"
 
   auto_updates true
