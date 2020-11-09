@@ -1,6 +1,6 @@
 cask "unity-webgl-support-for-editor" do
-  version "2020.1.10f1,974a9d56f159"
-  sha256 "f476398b8141d263ac728b1be1be8f4b806b37f56ec3867d7fc6995cef38a6c0"
+  version "2020.1.12f1,55b56f0a86e3"
+  sha256 "744f5fe488eff50e8edadaa5bb603700eb22ac20cb9ef936f3ba6cd7aafc0e2a"
 
   # download.unity3d.com/download_unity/ was verified as official when first introduced to the cask
   url "https://download.unity3d.com/download_unity/#{version.after_comma}/MacEditorTargetInstaller/UnitySetup-WebGL-Support-for-Editor-#{version.before_comma}.pkg"

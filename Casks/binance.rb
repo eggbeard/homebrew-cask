@@ -1,6 +1,6 @@
 cask "binance" do
-  version "1.5.1"
-  sha256 "75eafc57148592610b8a4bfb5dff3974bb63be96bff7d9f893b4722f23d4b111"
+  version "1.6.1"
+  sha256 "c75fea82ccf6210a820b7bfc4b400f813e30cc13038241e40e845c5dbe7dee83"
 
   url "https://ftp.binance.com/electron-desktop/mac/production/binance-#{version}.dmg"
   appcast "https://ftp.binance.com/electron-desktop/mac/production/latest-mac.yml"
