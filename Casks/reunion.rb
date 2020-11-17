@@ -1,6 +1,6 @@
 cask "reunion" do
-  version "13.0.0.201029n"
-  sha256 "b278d600761e8b3a73c81438bb4a4e1f5c9249de02e3ec70b50c92263053c53a"
+  version "13.0.0.201114n"
+  sha256 "67dd20a7aab47db4e7a7adb67f0ed1685a9a23e635da7c3df7006cc6ec297eed"
 
   url "https://store.leisterpro.com/updates/reunion#{version.major}/Reunion-#{version.dots_to_hyphens}.zip"
   appcast "https://store.leisterpro.com/updates/reunion#{version.major}/appcast.xml",
