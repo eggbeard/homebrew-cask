@@ -1,8 +1,8 @@
 cask "owncloud" do
-  version "2.6.3.13765"
-  sha256 "cb2d78923ffe89660ae2dd69e4c12b3fa0242ba22f9ec2dcb294e3ac958dee03"
+  version "2.7.2.2626"
+  sha256 "bff23f9a78ee48284be6d4e2a214c562bbb132d8275d60804bb2c5ac2f17b94c"
 
-  url "https://download.owncloud.com/desktop/stable/ownCloud-#{version}.pkg"
+  url "https://download.owncloud.com/desktop/ownCloud/stable/#{version}/mac/ownCloud-#{version}.pkg"
   appcast "https://github.com/owncloud/client/releases.atom"
   name "ownCloud"
   desc "Desktop syncing client for ownCloud"

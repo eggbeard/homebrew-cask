@@ -1,6 +1,6 @@
 cask "vassal" do
-  version "3.4.8"
-  sha256 "d354f92158db32d43c05d69cf076b49d64f0f91ff3303209be247d7f632e6792"
+  version "3.4.11"
+  sha256 "76c32efc6db62414d633457cc42e514a9555d92a07e146dafc4c85e91af9d8b0"
 
   # github.com/vassalengine/vassal was verified as official when first introduced to the cask
   url "https://github.com/vassalengine/vassal/releases/download/#{version}/VASSAL-#{version}-macosx.dmg"

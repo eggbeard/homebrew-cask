@@ -1,11 +1,12 @@
 cask "qownnotes" do
-  version "20.11.6"
-  sha256 "923b14f35521648209f5e28c0a7062f244654d08b56a22120f2514144d99eeba"
+  version "20.12.1"
+  sha256 "85a2d3aa6b6508040c8ae5658d723c2297999ee1025160aa15bce8497bb68b23"
 
   # github.com/pbek/QOwnNotes/ was verified as official when first introduced to the cask
   url "https://github.com/pbek/QOwnNotes/releases/download/v#{version}/QOwnNotes.dmg"
-  appcast "https://www.qownnotes.org/api/v1/last_release/QOwnNotes/macosx.json"
+  appcast "https://github.com/pbek/QOwnNotes/releases.atom"
   name "QOwnNotes"
+  desc "Plain-text file notepad and todo-list manager"
   homepage "https://www.qownnotes.org/"
 
   auto_updates true

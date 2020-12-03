@@ -1,9 +1,9 @@
 cask "workflowy" do
-  version "1.3.5-12260"
-  sha256 "7a42b70c3e67e2fae55584abe0d4d2a98610fcac0fd8188b519ec87f716c59e0"
+  version "1.3.5-13131"
+  sha256 "996e2ca1eb05acd98a182913f29a7b42b50a8662d1b6356a4355bbd1addc9668"
 
   # github.com/workflowy/desktop/ was verified as official when first introduced to the cask
-  url "https://github.com/workflowy/desktop/releases/download/v#{version}/WorkFlowy.dmg"
+  url "https://github.com/workflowy/desktop/releases/download/v#{version}/WorkFlowy.zip"
   appcast "https://github.com/workflowy/desktop/releases.atom"
   name "WorkFlowy"
   desc "Notetaking tool"

@@ -1,6 +1,6 @@
 cask "wifi-explorer" do
-  version "2.6.2"
-  sha256 "6405bbb84fe5dcc1c7fb7689cdfba7e8025efc665a0d3aa348eba4002f537584"
+  version "3.0.1"
+  sha256 "9c09075b715cbce81369c8f626967a9c964b93427c1890d1114d7844b13c95df"
 
   url "https://www.intuitibits.com/downloads/WiFiExplorer_#{version}.dmg"
   appcast "https://www.intuitibits.com/appcasts/wifiexplorercast.xml"

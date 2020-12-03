@@ -1,6 +1,6 @@
 cask "hazel" do
-  version "5.0"
-  sha256 "4225675205e7780fa78d7824a825bda7e2cc21ee856a6855401953dd231e15b9"
+  version "5.0.2"
+  sha256 "1c87c0a8ded71f9cfcd2bef2e2e4c15ee9dc997187ccfd967fd95216f60e33dc"
 
   # s3.amazonaws.com/Noodlesoft/ was verified as official when first introduced to the cask
   url "https://s3.amazonaws.com/Noodlesoft/Hazel-#{version}.dmg"
@@ -8,6 +8,8 @@ cask "hazel" do
   name "Hazel"
   desc "Automated organization"
   homepage "https://www.noodlesoft.com/"
+
+  auto_updates true
 
   app "Hazel.app"
 

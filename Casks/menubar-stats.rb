@@ -1,6 +1,6 @@
 cask "menubar-stats" do
-  version "3.5"
-  sha256 "f04ddc2dea949ebbf940ad836b2c7b2d65397610c0625ac5a34dcb0745654766"
+  version "3.6"
+  sha256 "3ec8c47155e39a91a58e8f3446ee0272b5a23f2fc4c0bc5913b5184e8f371612"
 
   url "https://seense.com/menubarstats/updateapp/mbs.zip"
   appcast "https://www.seense.com/menubarstats/updateapp/appcast.xml"
@@ -8,6 +8,7 @@ cask "menubar-stats" do
   desc "System monitor with temperature & fans plugins"
   homepage "https://seense.com/menubarstats/"
 
+  auto_updates true
   depends_on macos: ">= :sierra"
 
   app "MenuBar Stats.app"

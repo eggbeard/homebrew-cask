@@ -1,11 +1,11 @@
 cask "google-chrome" do
-  version "87.0.4280.66"
-  sha256 "d768f823e56b0dde4e68fd785db0c535ceb9fb1b4d5a5e9bf673e5b4a59e8ea4"
+  version "87.0.4280.88"
+  sha256 "ee766fc565daa3ebe72d2e8d1bc8cf5659e704fe36b5889d1927397a85fd459a"
 
-  url "https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg"
+  url "https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg"
   appcast "https://omahaproxy.appspot.com/history?os=mac;channel=stable"
   name "Google Chrome"
-  desc "Cross-platform web browser"
+  desc "Web browser"
   homepage "https://www.google.com/chrome/"
 
   auto_updates true
