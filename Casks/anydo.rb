@@ -1,8 +1,8 @@
 cask "anydo" do
-  version "4.2.118"
-  sha256 "b6d84ef0d633943374324dc1cd145337164d8e5da6b166a526b364440044d9a8"
+  version "4.2.125"
+  sha256 "5e5a1e4bd341f8c6b12eba59ef6b0f51e0c668fd1c09f0cab598fada23565e35"
 
-  url "https://electron-app.any.do/Any.do.dmg"
+  url "https://electron-app.any.do/Any.do-#{version}.dmg"
   appcast "https://electron-app.any.do/latest-mac.yml"
   name "Any.do"
   desc "Reminder, planner & calendar"

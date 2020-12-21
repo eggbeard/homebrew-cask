@@ -1,9 +1,9 @@
 cask "wormhole" do
-  version "1.4.5"
-  sha256 "917fca07756497abb6646aadbbb244573f42fed7c577ad1e8817b30570db4f6f"
+  version "1.4.9"
+  sha256 :no_check
 
-  # files.octopusgame.com/ was verified as official when first introduced to the cask
-  url "https://files.octopusgame.com/os/WormholeInstaller.dmg"
+  url "https://files.octopusgame.com/os/WormholeInstaller.dmg",
+      verified: "files.octopusgame.com/"
   appcast "https://er.run/release"
   name "Wormhole"
   homepage "https://er.run/"

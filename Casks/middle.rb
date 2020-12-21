@@ -1,6 +1,6 @@
 cask "middle" do
-  version "1.5.6"
-  sha256 "82802262dac10727fe4ade62d5894cd24742e9a5dd812f35b6ca099c2d103a14"
+  version "1.5.12"
+  sha256 "181d7a3cf3d946e8c97c00c66dc33dba391b3eda71e54c59aad812b8b1efafd5"
 
   url "https://middleclick.app/downloads/Middle#{version}.dmg"
   appcast "https://middleclick.app/downloads/updates.xml"

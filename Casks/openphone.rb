@@ -1,6 +1,6 @@
 cask "openphone" do
-  version "2.0.11"
-  sha256 "cb0a800b3742351d787e62c8ba25bc3dd75a861ae77fbc11f86b6d9ac0aaabb2"
+  version "2.0.19"
+  sha256 "11c2a20e311f260bd4535af50c55c1186ed7c29fa12b2389a4438b56d6bdbd30"
 
   url "https://download.openphone.co/OpenPhone-#{version}.dmg"
   appcast "https://s3-us-west-2.amazonaws.com/download.openphone.co/latest-mac.yml"

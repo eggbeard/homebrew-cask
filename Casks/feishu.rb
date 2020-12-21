@@ -1,9 +1,9 @@
 cask "feishu" do
-  version "3.37.3,ec9b47"
-  sha256 "2799bf157ef24ec7a00f9e5ae1ef503ce7ca4dede174c6c4d4299fb7bf21d08f"
+  version "3.38.2,cc7c8b"
+  sha256 "db927ce31c6396da25daec869e140dffd931bad78cf1892d497c5201004de330"
 
-  # sf3-ttcdn-tos.pstatp.com/ was verified as official when first introduced to the cask
-  url "https://sf3-ttcdn-tos.pstatp.com/obj/ee-appcenter/#{version.after_comma}/Feishu-#{version.before_comma}.dmg"
+  url "https://sf3-ttcdn-tos.pstatp.com/obj/ee-appcenter/#{version.after_comma}/Feishu-#{version.before_comma}.dmg",
+      verified: "sf3-ttcdn-tos.pstatp.com/"
   appcast "https://www.feishu.cn/api/downloads"
   name "feishu"
   desc "Project management software"

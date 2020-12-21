@@ -1,6 +1,6 @@
 cask "command-tab-plus" do
-  version "1.122"
-  sha256 "0e639b011d35b6feb323e9ddfb2424ba53a9138f741911cfface4e5cb6ef4c2c"
+  version "1.124,374"
+  sha256 :no_check
 
   url "https://noteifyapp.com/download/Command-Tab%20Plus.dmg"
   appcast "https://macplus-software.com/downloads/Command-Tab.xml"

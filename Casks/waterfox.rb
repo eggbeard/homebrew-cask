@@ -1,14 +1,14 @@
-cask "waterfox-current" do
-  version "2020.10,6820.10.20"
-  sha256 "4bbeb0210e75f33959cb60e4ef8b35176c4f01d9bc684d4f217255d3b7ecfb30"
+cask "waterfox" do
+  version "3.0.2,7820.12.15"
+  sha256 "0b215d7779af3c59eee7a43c84bd9695443c8d07e05db250343cdee5f7f56aa2"
 
-  url "https://cdn.waterfox.net/releases/osx64/installer/Waterfox%20Current%20#{version.before_comma}%20Setup.dmg"
+  url "https://cdn.waterfox.net/releases/osx64/installer/Waterfox%20G#{version.before_comma}%20Setup.dmg"
   appcast "https://www.waterfox.net/download/"
-  name "Waterfox Current"
+  name "Waterfox"
   desc "Web browser"
   homepage "https://www.waterfox.net/"
 
-  app "Waterfox Current.app"
+  app "Waterfox.app"
 
   zap trash: [
     "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.mozilla.waterfox.sfl*",

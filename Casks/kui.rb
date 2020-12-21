@@ -1,9 +1,9 @@
 cask "kui" do
-  version "9.2.6"
-  sha256 "14a21ed8882034d51e75ac2594f00c0a4966010faad5ecf29b9c8b7253adac7b"
+  version "9.3.3"
+  sha256 "35bf6d9ed1ab5626281ec228e428680592f4b8f0b45f8eb1972f0ba0776735ac"
 
-  # github.com/IBM/kui was verified as official when first introduced to the cask
-  url "https://github.com/IBM/kui/releases/download/v#{version}/Kui-darwin-x64.tar.bz2"
+  url "https://github.com/IBM/kui/releases/download/v#{version}/Kui-darwin-x64.tar.bz2",
+      verified: "github.com/IBM/kui/"
   appcast "https://github.com/IBM/kui/releases.atom"
   name "Kui"
   desc "Hybrid command-line/UI development experience for cloud-native development"

@@ -1,6 +1,6 @@
 cask "teamviewermeeting" do
-  version "15.13.2"
-  sha256 "e43fb97b302a48004b6802e165d9aebd420e402dfc515ad8c6c38c1d95fe7a73"
+  version "15.13.11"
+  sha256 "9cc468ccc4fa8bf21ed98f4671db9e4be33922e1545e168028f7ae6700b874e7"
 
   url "https://dl.teamviewer.com/teamviewermeeting/installer/mac/#{version}/TeamViewerMeeting.dmg"
   appcast "https://macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=https://download.teamviewer.com/blizz/mac"

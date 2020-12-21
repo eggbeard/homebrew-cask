@@ -1,9 +1,9 @@
 cask "rectangle" do
-  version "0.38"
-  sha256 "34f23a1d1dbf185ccda03887c4cecb28c8e221418f78f2d472ec13b87d27a88e"
+  version "0.40"
+  sha256 "70ad0351d512e0538d5b3ffc94dd48038d2e5e68077be8dc93f113baa21c3d3e"
 
-  # github.com/rxhanson/Rectangle/ was verified as official when first introduced to the cask
-  url "https://github.com/rxhanson/Rectangle/releases/download/v#{version}/Rectangle#{version}.dmg"
+  url "https://github.com/rxhanson/Rectangle/releases/download/v#{version}/Rectangle#{version}.dmg",
+      verified: "github.com/rxhanson/Rectangle/"
   appcast "https://www.rectangleapp.com/downloads/updates.xml"
   name "Rectangle"
   desc "Move and resize windows using keyboard shortcuts or snap areas"

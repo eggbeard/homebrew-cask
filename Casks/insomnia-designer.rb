@@ -1,9 +1,9 @@
 cask "insomnia-designer" do
-  version "2020.5.0"
-  sha256 "e26b530a22f1a7fb3193230b8dfed0bda691cdbcde138a279934ccbe779ae56f"
+  version "2020.5.2"
+  sha256 "a9cf020f15e8903656ade25508e8b8af172561ee84776c05a8b36713866d3371"
 
-  # github.com/Kong/insomnia/ was verified as official when first introduced to the cask
-  url "https://github.com/Kong/insomnia/releases/download/designer%40#{version}/Insomnia.Designer-#{version}.dmg"
+  url "https://github.com/Kong/insomnia/releases/download/designer%40#{version}/Insomnia.Designer-#{version}.dmg",
+      verified: "github.com/Kong/insomnia/"
   appcast "https://api.insomnia.rest/changelog.json?app=com.insomnia.designer"
   name "Insomnia Designer"
   desc "API design platform for GraphQL and REST"
